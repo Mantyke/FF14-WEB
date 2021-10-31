@@ -1913,8 +1913,8 @@ pre {
     display: block;
     margin-right: 10px;
 }
-/* 屏幕小于768px时logo图片不显示 */
-@media (max-width:768px) {
+/* 屏幕小于1100px时logo图片不显示 */
+@media (max-width:1100px) {
     .xe-comment-entry img {
         display: none;
     }
