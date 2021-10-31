@@ -2014,6 +2014,13 @@ sub {
 
 img {
     border: 0;
+
+    @media (min-width:768px) {
+        .img {
+            width: 19.5px;
+        }
+    }
+    
 }
 
 svg:not(:root) {
